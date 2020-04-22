@@ -9,8 +9,9 @@ int main()
 	d.OutDate();
 	printf("Size of Date = %d\n", sizeof(Date));
 
-	Time now;
-	now.SetTime(15, 24, 48);
+	Time now(15, 24, 48);
+	//Time now;
+	//now.SetTime(15, 24, 48);
 	now.OutTime();
 	printf("Size of Time = %d\n", sizeof(Time));
 
