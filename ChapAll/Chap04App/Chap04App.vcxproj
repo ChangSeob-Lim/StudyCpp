@@ -138,10 +138,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CarClass.cpp" />
+    <ClInclude Include="cursor.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cursor.h" />
+    <ClCompile Include="DBQuery.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
