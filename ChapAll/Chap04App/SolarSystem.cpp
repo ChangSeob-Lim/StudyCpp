@@ -26,12 +26,12 @@ public:
 		putch(' ');
 	}*/
 
-	int GetX()
+	int GetX() const
 	{
 		return x;
 	}
 
-	int GetY()
+	int GetY() const
 	{
 		return y;
 	}
@@ -43,8 +43,7 @@ private:
 	const int r;
 	int x, y;
 	const char ch;
-	//const Sun* pSun;
-	Sun* pSun; // 왜 const가 안되는지 모르겠음
+	const Sun* pSun;
 
 	void Show()
 	{
