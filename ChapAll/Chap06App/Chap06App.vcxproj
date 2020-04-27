@@ -138,7 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\Chap05App\cursor.h" />
+    <ClInclude Include="cursor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Self6-2.cpp" />
