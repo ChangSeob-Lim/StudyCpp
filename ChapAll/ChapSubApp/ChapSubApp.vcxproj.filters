@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="modern_cpp_03.cpp">
+    <ClCompile Include="modern_cpp_lambda.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
